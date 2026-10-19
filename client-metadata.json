@@ -1,0 +1,20 @@
+{
+  "client_id": "https://ctorstrick.github.io/moonstone-oauth/client-metadata.json",
+  "client_name": "Moonstone",
+  "application_type": "web",
+  "grant_types": [
+    "authorization_code",
+    "refresh_token"
+  ],
+  "response_types": [
+    "code"
+  ],
+  "redirect_uris": [
+    "https://zimaos.tail0880b4.ts.net:8445/oauth/callback/bluesky"
+  ],
+  "scope": "atproto repo:app.bsky.feed.post repo:app.bsky.feed.threadgate blob:image/* blob:video/*",
+  "token_endpoint_auth_method": "private_key_jwt",
+  "token_endpoint_auth_signing_alg": "ES256",
+  "dpop_bound_access_tokens": true,
+  "jwks_uri": "https://ctorstrick.github.io/moonstone-oauth/jwks.json"
+}
